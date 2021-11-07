@@ -77,7 +77,7 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="WireFrame.JPG" width=600>
+<img src="Wireframe.JPG" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 

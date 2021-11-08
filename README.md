@@ -85,9 +85,77 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 ## Schema 
 [This section will be completed in Unit 9]
+
 ### Models
+Post
+| Property | Type    | Description |
+| -------- | -------- | -------- |
+| objectId | String    | unique id for the user post (default field)     |
+| author | Pointer to User    | image author     |
+| image | File    | image that user posts     |
+| category | String    | category of recipe   |
+| caption | String    | image caption by author    |
+| commentsCount | Number    | number of comments that has been posted to an image     |
+| likesCount | Number | number of likes for the post     |
+| createdAt | DateTime | date when post is created (default field)     |
+
+User
+| Property | Type    | Description |
+| -------- | -------- | -------- |
+| username | String |Username of PFUser|
+| objectId | String    | unique id for the user post (default field)     |
+| password | String | password associated with a user |
+| createdAt | DateTime | date when post is created (default field)     |
+
+Comments
+| Property | Type    | Description |
+| -------- | -------- | -------- |
+| objectId | String    | unique id for the user post (default field)     |
+| author | Pointer to User    | image author| 
+|createdAt | DateTime | date when post is created (default field) |
+| text | String | the comment text |
+| post | Pointer to Post | post author |
+
+
+
 [Add table of models]
 ### Networking
+- Login/Signup Screen
+    - (Read/GET) Query user and Passwords
+    - (Create/POST) Create new user with password
+- Categories Feed Screen
+    - (Read/GET) Query all posts where category is tagged
+    - (Read/GET) Query all likes for the posts
+- Recipe Detail View Screen
+    - (Read/GET) Query all likes for the posts
+    - (Read/GET) Query all comments for the posts
+    - (Create/POST) Create a new like on post
+    - (Delete) Delete existing like
+    - (Create/POST) Create new comment on post
+    - (Delete) Delete exisitng comment
+
+- Profile Screen
+    - (Read/GET) Get all posts of the user 
+```
+let query = PFQuery(className:"Post")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let posts = posts {
+      print("Successfully retrieved \(posts.count) posts.")
+  // TODO: Do something with posts...
+   }
+}
+
+```
+- (Read/GET) Get the username of the user 
+
+- Create Recipe Post Screen
+    - (Create/POST) Create an image for the post
+    - (Create/POST) Create list of ingredients and steps for the post
+    - (Create/POST) Create the tagged category
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]

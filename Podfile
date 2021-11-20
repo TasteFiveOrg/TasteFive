@@ -9,5 +9,13 @@ target 'TasteFive' do
 
   pod 'Parse'
   pod 'AlamofireImage'
+  
+  target 'TasteFiveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
+  target 'TasteFiveUITests' do
+    # Pods for testing
+  end
 end

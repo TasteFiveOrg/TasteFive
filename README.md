@@ -29,11 +29,11 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 **Required Must-have Stories**
 
--[] User can login
--[] User can Register
--[] User can choose what cuisine/category to view
--[] User can Upload Recipes
--[] User can view recipes
+- [] User can login
+- [] User can Register
+- [] User can choose what cuisine/category to view
+- [] User can Upload Recipes
+- [] User can view recipes
 
 **Optional Nice-to-have Stories**
 

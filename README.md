@@ -42,6 +42,14 @@ An app that lets users upload recipes and categorize them. Other users can view 
 * User can share Recipes
 * User can reshare Recipes
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<<<<<<< HEAD
+<img src='TasteFiveSprint1.gif' />
+=======
+
 ### 2. Screen Archetypes
 
 * Login screen

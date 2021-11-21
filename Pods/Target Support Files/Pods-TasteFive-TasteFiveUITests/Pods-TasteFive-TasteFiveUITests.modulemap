@@ -1,0 +1,6 @@
+framework module Pods_TasteFive_TasteFiveUITests {
+  umbrella header "Pods-TasteFive-TasteFiveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

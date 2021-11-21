@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B2439B327488B320072A2DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2439B227488B320072A2DC /* LoginViewController.swift */; };
 		0B2439B527488B3D0072A2DC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2439B427488B3D0072A2DC /* FeedViewController.swift */; };
+		22A7D0E6574007EFC8A4813C /* Pods_TasteFive_TasteFiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115C0302D3EF5EEB92B8D5B8 /* Pods_TasteFive_TasteFiveUITests.framework */; };
+		8DAA99A69C82A580E413AE86 /* Pods_TasteFiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA81B4256B75CE7826E32CD9 /* Pods_TasteFiveTests.framework */; };
 		E1B0C04B274162D800017A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C04A274162D800017A28 /* AppDelegate.swift */; };
 		E1B0C04D274162D800017A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C04C274162D800017A28 /* SceneDelegate.swift */; };
 		E1B0C052274162D800017A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B0C050274162D800017A28 /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		E1B0C057274162D900017A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B0C055274162D900017A28 /* LaunchScreen.storyboard */; };
 		E1B0C062274162D900017A28 /* TasteFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C061274162D900017A28 /* TasteFiveTests.swift */; };
 		E1B0C06D274162D900017A28 /* TasteFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C06C274162D900017A28 /* TasteFiveUITests.swift */; };
+		E32650A1CC8CDC8BE2F3FF67 /* Pods_TasteFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FBA106BEBADF57E6BAF296 /* Pods_TasteFive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,14 @@
 /* Begin PBXFileReference section */
 		0B2439B227488B320072A2DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B2439B427488B3D0072A2DC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		115C0302D3EF5EEB92B8D5B8 /* Pods_TasteFive_TasteFiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFive_TasteFiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26586C3665FA79B4EF84ADF3 /* Pods-TasteFiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFiveTests.debug.xcconfig"; path = "Target Support Files/Pods-TasteFiveTests/Pods-TasteFiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C9C5298FB0A13D95B5AA1FA /* Pods-TasteFiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFiveTests.release.xcconfig"; path = "Target Support Files/Pods-TasteFiveTests/Pods-TasteFiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		32FBA106BEBADF57E6BAF296 /* Pods_TasteFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643922A4481B696B57D772FD /* Pods-TasteFive-TasteFiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFive-TasteFiveUITests.release.xcconfig"; path = "Target Support Files/Pods-TasteFive-TasteFiveUITests/Pods-TasteFive-TasteFiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80EFC62885BBC0300542838B /* Pods-TasteFive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFive.release.xcconfig"; path = "Target Support Files/Pods-TasteFive/Pods-TasteFive.release.xcconfig"; sourceTree = "<group>"; };
+		AF349001CFB775CA5EA35357 /* Pods-TasteFive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFive.debug.xcconfig"; path = "Target Support Files/Pods-TasteFive/Pods-TasteFive.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC488BA671DF0CD61CBDB3B /* Pods-TasteFive-TasteFiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFive-TasteFiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-TasteFive-TasteFiveUITests/Pods-TasteFive-TasteFiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1B0C047274162D800017A28 /* TasteFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B0C04A274162D800017A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1B0C04C274162D800017A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		E1B0C068274162D900017A28 /* TasteFiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteFiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B0C06C274162D900017A28 /* TasteFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteFiveUITests.swift; sourceTree = "<group>"; };
 		E1B0C06E274162D900017A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA81B4256B75CE7826E32CD9 /* Pods_TasteFiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32650A1CC8CDC8BE2F3FF67 /* Pods_TasteFive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAA99A69C82A580E413AE86 /* Pods_TasteFiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A7D0E6574007EFC8A4813C /* Pods_TasteFive_TasteFiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74A8C3142527963E1C601F31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF349001CFB775CA5EA35357 /* Pods-TasteFive.debug.xcconfig */,
+				80EFC62885BBC0300542838B /* Pods-TasteFive.release.xcconfig */,
+				DCC488BA671DF0CD61CBDB3B /* Pods-TasteFive-TasteFiveUITests.debug.xcconfig */,
+				643922A4481B696B57D772FD /* Pods-TasteFive-TasteFiveUITests.release.xcconfig */,
+				26586C3665FA79B4EF84ADF3 /* Pods-TasteFiveTests.debug.xcconfig */,
+				2C9C5298FB0A13D95B5AA1FA /* Pods-TasteFiveTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF0F6E74DE521C6E690BA659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32FBA106BEBADF57E6BAF296 /* Pods_TasteFive.framework */,
+				115C0302D3EF5EEB92B8D5B8 /* Pods_TasteFive_TasteFiveUITests.framework */,
+				EA81B4256B75CE7826E32CD9 /* Pods_TasteFiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1B0C03E274162D800017A28 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				E1B0C060274162D900017A28 /* TasteFiveTests */,
 				E1B0C06B274162D900017A28 /* TasteFiveUITests */,
 				E1B0C048274162D800017A28 /* Products */,
+				74A8C3142527963E1C601F31 /* Pods */,
+				AF0F6E74DE521C6E690BA659 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1B0C071274162D900017A28 /* Build configuration list for PBXNativeTarget "TasteFive" */;
 			buildPhases = (
+				1267A9AB79220A9DF4F4919F /* [CP] Check Pods Manifest.lock */,
 				E1B0C043274162D800017A28 /* Sources */,
 				E1B0C044274162D800017A28 /* Frameworks */,
 				E1B0C045274162D800017A28 /* Resources */,
+				83B070B17ACD3404CB93B112 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1B0C074274162D900017A28 /* Build configuration list for PBXNativeTarget "TasteFiveTests" */;
 			buildPhases = (
+				344DFF8847DE11B23C661DDF /* [CP] Check Pods Manifest.lock */,
 				E1B0C059274162D900017A28 /* Sources */,
 				E1B0C05A274162D900017A28 /* Frameworks */,
 				E1B0C05B274162D900017A28 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1B0C077274162D900017A28 /* Build configuration list for PBXNativeTarget "TasteFiveUITests" */;
 			buildPhases = (
+				75554BD7020DC559DC0A163C /* [CP] Check Pods Manifest.lock */,
 				E1B0C064274162D900017A28 /* Sources */,
 				E1B0C065274162D900017A28 /* Frameworks */,
 				E1B0C066274162D900017A28 /* Resources */,
+				F92107782BD1555BA4E5A72F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1267A9AB79220A9DF4F4919F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TasteFive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		344DFF8847DE11B23C661DDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TasteFiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75554BD7020DC559DC0A163C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TasteFive-TasteFiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B070B17ACD3404CB93B112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasteFive/Pods-TasteFive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasteFive/Pods-TasteFive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TasteFive/Pods-TasteFive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92107782BD1555BA4E5A72F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasteFive-TasteFiveUITests/Pods-TasteFive-TasteFiveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TasteFive-TasteFiveUITests/Pods-TasteFive-TasteFiveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TasteFive-TasteFiveUITests/Pods-TasteFive-TasteFiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1B0C043274162D800017A28 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		E1B0C072274162D900017A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF349001CFB775CA5EA35357 /* Pods-TasteFive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +605,7 @@
 		};
 		E1B0C073274162D900017A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EFC62885BBC0300542838B /* Pods-TasteFive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +624,7 @@
 		};
 		E1B0C075274162D900017A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26586C3665FA79B4EF84ADF3 /* Pods-TasteFiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		E1B0C076274162D900017A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9C5298FB0A13D95B5AA1FA /* Pods-TasteFiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		E1B0C078274162D900017A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC488BA671DF0CD61CBDB3B /* Pods-TasteFive-TasteFiveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +688,7 @@
 		};
 		E1B0C079274162D900017A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643922A4481B696B57D772FD /* Pods-TasteFive-TasteFiveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

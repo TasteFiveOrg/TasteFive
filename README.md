@@ -44,9 +44,8 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories for Sprint 1:
 
-<<<<<<< HEAD
 <img src='TasteFiveSprint1.gif' />
 =======
 

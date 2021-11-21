@@ -47,7 +47,7 @@ An app that lets users upload recipes and categorize them. Other users can view 
 Here's a walkthrough of implemented user stories for Sprint 1:
 
 <img src='TasteFiveSprint1.gif' />
-=======
+
 
 ### 2. Screen Archetypes
 

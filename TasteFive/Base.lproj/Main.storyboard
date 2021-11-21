@@ -69,7 +69,7 @@
                     <connections>
                         <outlet property="passwordField" destination="Ynt-Ek-bNB" id="wCD-x2-zgh"/>
                         <outlet property="usernameField" destination="9da-8K-290" id="Bmk-vx-ehi"/>
-                        <segue destination="t2z-XV-iQK" kind="presentation" identifier="loginSegue" id="GhK-jG-qbV"/>
+                        <segue destination="t2z-XV-iQK" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="GhK-jG-qbV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -81,7 +81,7 @@
             <objects>
                 <viewController id="i5E-US-US3" customClass="FeedViewController" customModule="TasteFive" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SjN-yY-HbC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="4gK-yP-fig"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -98,7 +98,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t2z-XV-iQK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="T97-C6-4UF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

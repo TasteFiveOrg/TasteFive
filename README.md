@@ -29,11 +29,11 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 **Required Must-have Stories**
 
-* User can login
-* User can Register
-* User can choose what cuisine/category to view
-* User can Upload Recipes
-* User can view recipes
+- [x] User can login
+- [x] User can Register
+- [] User can choose what cuisine/category to view
+- [] User can Upload Recipes
+- [] User can view recipes
 
 **Optional Nice-to-have Stories**
 
@@ -47,7 +47,7 @@ An app that lets users upload recipes and categorize them. Other users can view 
 Here's a walkthrough of implemented user stories for Sprint 1:
 
 <img src='TasteFiveSprint1.gif' />
-=======
+
 
 ### 2. Screen Archetypes
 

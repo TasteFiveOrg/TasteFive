@@ -10,6 +10,7 @@
 		0B2439B327488B320072A2DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2439B227488B320072A2DC /* LoginViewController.swift */; };
 		0B2439B527488B3D0072A2DC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2439B427488B3D0072A2DC /* FeedViewController.swift */; };
 		0B40F802274AAA7C0089074F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40F801274AAA7C0089074F /* CategoryCell.swift */; };
+		22459FF4275000FA00B98FE5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22459FF3275000FA00B98FE5 /* ProfileViewController.swift */; };
 		22A7D0E6574007EFC8A4813C /* Pods_TasteFive_TasteFiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115C0302D3EF5EEB92B8D5B8 /* Pods_TasteFive_TasteFiveUITests.framework */; };
 		8DAA99A69C82A580E413AE86 /* Pods_TasteFiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA81B4256B75CE7826E32CD9 /* Pods_TasteFiveTests.framework */; };
 		E1B0C04B274162D800017A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C04A274162D800017A28 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 		0B2439B427488B3D0072A2DC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0B40F801274AAA7C0089074F /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		115C0302D3EF5EEB92B8D5B8 /* Pods_TasteFive_TasteFiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFive_TasteFiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22459FF3275000FA00B98FE5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		26586C3665FA79B4EF84ADF3 /* Pods-TasteFiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFiveTests.debug.xcconfig"; path = "Target Support Files/Pods-TasteFiveTests/Pods-TasteFiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C9C5298FB0A13D95B5AA1FA /* Pods-TasteFiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TasteFiveTests.release.xcconfig"; path = "Target Support Files/Pods-TasteFiveTests/Pods-TasteFiveTests.release.xcconfig"; sourceTree = "<group>"; };
 		32FBA106BEBADF57E6BAF296 /* Pods_TasteFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 				0B2439B227488B320072A2DC /* LoginViewController.swift */,
 				0B2439B427488B3D0072A2DC /* FeedViewController.swift */,
 				0B40F801274AAA7C0089074F /* CategoryCell.swift */,
+				22459FF3275000FA00B98FE5 /* ProfileViewController.swift */,
 			);
 			path = TasteFive;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22459FF4275000FA00B98FE5 /* ProfileViewController.swift in Sources */,
 				0B2439B327488B320072A2DC /* LoginViewController.swift in Sources */,
 				E1B0C04B274162D800017A28 /* AppDelegate.swift in Sources */,
 				0B2439B527488B3D0072A2DC /* FeedViewController.swift in Sources */,

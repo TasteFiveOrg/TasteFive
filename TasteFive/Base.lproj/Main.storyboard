@@ -95,7 +95,7 @@
             </objects>
             <point key="canvasLocation" x="-223" y="50"/>
         </scene>
-        <!--Feed View Controller-->
+        <!--Categories-->
         <scene sceneID="kL4-Qw-bRY">
             <objects>
                 <viewController id="i5E-US-US3" customClass="FeedViewController" customModule="TasteFive" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,15 +108,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="125" id="5c8-Ve-bXy" customClass="CategoryCell" customModule="TasteFive" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="125"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="233" id="5c8-Ve-bXy" customClass="CategoryCell" customModule="TasteFive" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="233"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5c8-Ve-bXy" id="BLy-wj-BTz">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nj-te-38F">
-                                                    <rect key="frame" x="100" y="21" width="214" height="103"/>
+                                                    <rect key="frame" x="100" y="21" width="214" height="211"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="195" id="MCj-6y-VLd"/>
                                                     </constraints>
@@ -134,6 +134,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="categoryLabel" destination="0Nj-te-38F" id="CSL-y3-Czb"/>
+                                            <segue destination="Hfd-41-jUN" kind="show" id="1Hn-t8-cuf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -142,7 +143,7 @@
                         <viewLayoutGuide key="safeArea" id="4gK-yP-fig"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="RbK-5I-jIx">
+                    <navigationItem key="navigationItem" title="Categories" id="RbK-5I-jIx">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="iAe-e3-AgS">
                             <connections>
                                 <action selector="onLogOutButton:" destination="i5E-US-US3" id="cra-sw-xjR"/>
@@ -155,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnI-Gx-OeZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-843" y="1499"/>
+            <point key="canvasLocation" x="-843.47826086956525" y="1498.6607142857142"/>
         </scene>
         <!--Home-->
         <scene sceneID="gYy-Es-jX8">
@@ -175,6 +176,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4B-Qb-N7N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-843" y="778"/>
+        </scene>
+        <!--Recipe Feed View Controller-->
+        <scene sceneID="LWU-Eq-Q75">
+            <objects>
+                <viewController id="Hfd-41-jUN" customClass="RecipeFeedViewController" customModule="TasteFive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R3L-XI-Bpv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xbR-Vq-BKk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eVz-4z-pj7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xSR-W3-JtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-843" y="2198"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="tq3-Bu-P8F">

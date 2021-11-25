@@ -34,6 +34,7 @@ class FeedViewController: UIViewController,UITableViewDataSource,UITableViewDele
         tableView.dataSource = self
 
         // Do any additional setup after loading the view.
+        tableView.rowHeight = 120
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -64,14 +65,22 @@ class FeedViewController: UIViewController,UITableViewDataSource,UITableViewDele
         delegate.window?.rootViewController = loginViewController
     }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        //Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let categorie = categories[indexPath.row]
+        
+        //Pass the selected movie to the details view controller
+        let recipeViewController = segue.destination as! RecipeFeedViewController
+        recipeViewController.categorie = categorie
     }
-    */
 
 }

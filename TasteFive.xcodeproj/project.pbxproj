@@ -21,6 +21,8 @@
 		E1B0C057274162D900017A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B0C055274162D900017A28 /* LaunchScreen.storyboard */; };
 		E1B0C062274162D900017A28 /* TasteFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C061274162D900017A28 /* TasteFiveTests.swift */; };
 		E1B0C06D274162D900017A28 /* TasteFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0C06C274162D900017A28 /* TasteFiveUITests.swift */; };
+		E1F46DBA275167CC004B144D /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F46DB9275167CC004B144D /* RecipeCell.swift */; };
+		E1F46DBF2751742B004B144D /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */; };
 		E32650A1CC8CDC8BE2F3FF67 /* Pods_TasteFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FBA106BEBADF57E6BAF296 /* Pods_TasteFive.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		E1B0C068274162D900017A28 /* TasteFiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteFiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B0C06C274162D900017A28 /* TasteFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteFiveUITests.swift; sourceTree = "<group>"; };
 		E1B0C06E274162D900017A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F46DB9275167CC004B144D /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
 		EA81B4256B75CE7826E32CD9 /* Pods_TasteFiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,6 +162,8 @@
 				0B40F801274AAA7C0089074F /* CategoryCell.swift */,
 				22459FF3275000FA00B98FE5 /* ProfileViewController.swift */,
 				22459FF527500A6D00B98FE5 /* RecipeFeedViewController.swift */,
+				E1F46DB9275167CC004B144D /* RecipeCell.swift */,
+				E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */,
 			);
 			path = TasteFive;
 			sourceTree = "<group>";
@@ -419,8 +425,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22459FF4275000FA00B98FE5 /* ProfileViewController.swift in Sources */,
+				E1F46DBF2751742B004B144D /* RecipeDetailsViewController.swift in Sources */,
 				0B2439B327488B320072A2DC /* LoginViewController.swift in Sources */,
 				E1B0C04B274162D800017A28 /* AppDelegate.swift in Sources */,
+				E1F46DBA275167CC004B144D /* RecipeCell.swift in Sources */,
 				0B2439B527488B3D0072A2DC /* FeedViewController.swift in Sources */,
 				22459FF627500A6D00B98FE5 /* RecipeFeedViewController.swift in Sources */,
 				E1B0C04D274162D800017A28 /* SceneDelegate.swift in Sources */,

@@ -1,26 +1,21 @@
 //
-//  RecipeDetailsViewController.swift
+//  SpecificRecipeCellViewController.swift
 //  TasteFive
 //
-//  Created by andy on 11/26/21.
+//  Created by andy on 11/27/21.
 //
 
 import UIKit
-import Parse
 
-class RecipeDetailsViewController: UIViewController {
-        
+class SpecificRecipeCellViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-        
         // Do any additional setup after loading the view.
     }
-
-
-
     
+
     /*
     // MARK: - Navigation
 

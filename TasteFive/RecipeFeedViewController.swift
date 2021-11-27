@@ -7,6 +7,7 @@
 
 import UIKit
 import Parse
+import AlamofireImage
 
 class RecipeFeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -14,6 +15,7 @@ class RecipeFeedViewController: UIViewController, UITableViewDataSource, UITable
     @IBOutlet weak var tableView: UITableView!
 
     var categorie: PFObject!
+    var posts = [PFObject]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,14 +26,43 @@ class RecipeFeedViewController: UIViewController, UITableViewDataSource, UITable
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let query = PFQuery(className: "Posts")
+        query.includeKey("author")
+        query.limit = 20
+        
+        query.findObjectsInBackground { (posts, error) in
+            if posts != nil {
+                self.posts = posts!
+                self.tableView.reloadData()
+            }
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 50 //sample number of rows shown. The number represents how many rows are shown
+        return posts.count
+        //sample number of rows shown. The number represents how many rows are shown
         // it should be recipies.count where recipies refers to the title of the recipe that the user gives
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell") as! RecipeCell
         
+        let post = posts[indexPath.row]
+        
+        cell.recipeTitle.text = post["title"] as? String
+        
+        let imageFile = post["image"] as! PFFileObject
+        let urlString = imageFile.url!
+        let url = URL(string: urlString)!
+        
+        cell.recipeImage.af_setImage(withURL: url)
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell") as! RecipeCell
+        
+
+
         //the code replacing this should say, ... = cell.titleLabel.text = title (this is what the class is called in parse)
         // same thing for the upvotes
         

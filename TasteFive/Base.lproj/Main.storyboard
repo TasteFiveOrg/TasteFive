@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -109,7 +108,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="233" id="5c8-Ve-bXy" customClass="CategoryCell" customModule="TasteFive" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="233"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="233"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5c8-Ve-bXy" id="BLy-wj-BTz">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
@@ -191,7 +190,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecipeCell" rowHeight="184" id="Ekb-S1-j4C" customClass="RecipeCell" customModule="TasteFive" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="184"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="184"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ekb-S1-j4C" id="Qkk-iu-b2b">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
@@ -209,7 +208,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="M0M-Xo-SlK">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M0M-Xo-SlK">
                                                     <rect key="frame" x="5" y="26" width="132" height="132"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="132" id="Orx-o0-5uK"/>
@@ -250,10 +249,10 @@
             </objects>
             <point key="canvasLocation" x="-843.47826086956525" y="2197.826086956522"/>
         </scene>
-        <!--Recipe Details View Controller-->
+        <!--View Controller-->
         <scene sceneID="I2X-cD-Y9f">
             <objects>
-                <viewController id="bWH-Kg-1Xe" customClass="RecipeDetailsViewController" customModule="TasteFive" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bWH-Kg-1Xe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXL-kj-77a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,10 +263,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="49P-Nv-6NA">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="DU9-bp-HQm">
-                                                <rect key="frame" x="95" y="8" width="225" height="225"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eao-Uk-zuX">
                                                 <rect key="frame" x="43" y="416" width="86" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -303,6 +298,10 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qXq-rL-eQ2">
+                                                <rect key="frame" x="86" y="0.0" width="240" height="240"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -350,14 +349,14 @@
                     <navigationItem key="navigationItem" id="5fj-wO-e5Y">
                         <barButtonItem key="rightBarButtonItem" title="Post" id="RhV-Qi-8m8">
                             <connections>
-                                <segue destination="bCl-VU-RvT" kind="presentation" modalPresentationStyle="fullScreen" id="Lqg-Ks-CTC"/>
+                                <segue destination="bCl-VU-RvT" kind="show" id="Lqg-Ks-CTC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xge-c2-ndg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="351" y="1499"/>
+            <point key="canvasLocation" x="350.72463768115944" y="1498.3695652173915"/>
         </scene>
         <!--Post View Controller-->
         <scene sceneID="6Yj-7r-7IY">
@@ -368,23 +367,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="9xe-om-vPY">
-                                <rect key="frame" x="87" y="73" width="244" height="155"/>
+                                <rect key="frame" x="85" y="74" width="244" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="MeX-cP-A9D" appends="YES" id="hep-eg-uS1"/>
                                 </connections>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ingredients" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Ic-tn-DIz">
-                                <rect key="frame" x="87" y="286" width="240" height="100"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="onDrag" text="Ingredients" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Ic-tn-DIz">
+                                <rect key="frame" x="87" y="360" width="240" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Instructions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="17v-A0-fh3">
-                                <rect key="frame" x="87" y="450" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="onDrag" text="Instructions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="17v-A0-fh3">
+                                <rect key="frame" x="87" y="527" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -392,22 +391,33 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8I-wt-GmE">
-                                <rect key="frame" x="113" y="586" width="188" height="31"/>
+                                <rect key="frame" x="113" y="663" width="188" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <state key="normal" title="Post"/>
                                 <connections>
                                     <action selector="onSubmitButton:" destination="bCl-VU-RvT" eventType="touchUpInside" id="k8N-Qe-pZS"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="onDrag" text="Title of recipe" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wjc-zU-bLz">
+                                <rect key="frame" x="87" y="237" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dmz-7P-JSx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Vsa-44-wPH"/>
+                    <size key="freeformSize" width="414" height="736"/>
                     <connections>
                         <outlet property="imageView" destination="9xe-om-vPY" id="u1R-gf-jtk"/>
                         <outlet property="ingredientText" destination="6Ic-tn-DIz" id="w9h-rN-aDh"/>
                         <outlet property="instructionsText" destination="17v-A0-fh3" id="Xg2-nb-Iho"/>
+                        <outlet property="titleText" destination="Wjc-zU-bLz" id="Ytk-WK-Le8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJB-JI-Ztn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -417,7 +427,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1166.6666666666667" y="1506.521739130435"/>
+            <point key="canvasLocation" x="1228.985507246377" y="1497.554347826087"/>
         </scene>
         <!--Profile-->
         <scene sceneID="iRn-H4-49V">

@@ -14,6 +14,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var ingredientText: UITextView!
     @IBOutlet weak var instructionsText: UITextView!
+    @IBOutlet weak var titleText: UITextView!
     
     
     
@@ -29,6 +30,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         post["ingredients"] = ingredientText.text!
         post["instructionsText"] = instructionsText.text!
         post["author"] = PFUser.current()!
+        post["title"] = titleText.text!
                 
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)

@@ -37,10 +37,10 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 **Optional Nice-to-have Stories**
 
-* User Upvote Recipes
-* User can comment on Recipes
-* User can share Recipes
-* User can reshare Recipes
+- [] User Upvote Recipes
+- [] User can comment on Recipes
+- [] User can share Recipes
+- [] User can reshare Recipes
 
 ## Video Walkthrough
 

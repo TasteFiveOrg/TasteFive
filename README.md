@@ -48,6 +48,10 @@ Here's a walkthrough of implemented user stories for Sprint 1:
 
 <img src='TasteFiveSprint1.gif' />
 
+Here's a walkthrough of implemented user stories for Sprint 2:
+
+<img src='TasteFiveSprint2.gif' />
+
 
 ### 2. Screen Archetypes
 

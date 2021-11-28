@@ -31,9 +31,9 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 - [x] User can login
 - [x] User can Register
-- [] User can choose what cuisine/category to view
-- [] User can Upload Recipes
-- [] User can view recipes
+- [x] User can choose what cuisine/category to view
+- [x] User can Upload Recipes
+- [x] User can view recipes
 
 **Optional Nice-to-have Stories**
 

@@ -30,6 +30,7 @@ class RecipeFeedViewController: UIViewController, UITableViewDataSource, UITable
         super.viewDidAppear(animated)
         
         let query = PFQuery(className: "Posts")
+        query.whereKey("category", equalTo: categorie ?? "ksg8SVfZvV")
         query.includeKey("author")
         query.limit = 20
         

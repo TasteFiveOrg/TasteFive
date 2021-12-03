@@ -31,22 +31,26 @@ An app that lets users upload recipes and categorize them. Other users can view 
 
 - [x] User can login
 - [x] User can Register
-- [] User can choose what cuisine/category to view
-- [] User can Upload Recipes
-- [] User can view recipes
+- [x] User can choose what cuisine/category to view
+- [x] User can Upload Recipes
+- [x] User can view recipes
 
 **Optional Nice-to-have Stories**
 
-* User Upvote Recipes
-* User can comment on Recipes
-* User can share Recipes
-* User can reshare Recipes
+- [ ] User Upvote Recipes
+- [ ] User can comment on Recipes
+- [ ] User can share Recipes
+- [ ] User can reshare Recipes
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories for Sprint 1:
 
 <img src='TasteFiveSprint1.gif' />
+
+Here's a walkthrough of implemented user stories for Sprint 2:
+
+<img src='TasteFiveSprint2.gif' />
 
 
 ### 2. Screen Archetypes

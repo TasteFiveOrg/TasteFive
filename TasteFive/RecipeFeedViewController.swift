@@ -78,5 +78,16 @@ class RecipeFeedViewController: UIViewController, UITableViewDataSource, UITable
         // Pass the selected object to the new view controller.
     }
     */
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("Loading the next screen")
+        
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let post = posts[indexPath.row]
+        
+        let detailsViewController = segue.destination as! RecipeDetailsViewController
+        detailsViewController.post = post
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }

@@ -2,13 +2,19 @@
 //  SpecificRecipeCell.swift
 //  TasteFive
 //
-//  Created by andy on 11/27/21.
+//  Created by andy on 12/2/21.
 //
 
 import UIKit
 
 class SpecificRecipeCell: UITableViewCell {
 
+    @IBOutlet weak var recipeImage: UIImageView!
+    @IBOutlet weak var recipeTitle: UILabel!
+    @IBOutlet weak var ingredientsLabel: UILabel!
+    @IBOutlet weak var stepsLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

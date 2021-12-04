@@ -12,16 +12,45 @@ import Parse
 class PostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var ingredientText: UITextView!
-    @IBOutlet weak var instructionsText: UITextView!
-    @IBOutlet weak var titleText: UITextView!
+    @IBOutlet weak var titletext: UITextField!
+    @IBOutlet weak var instructionsText: UITextField!
+    
+    @IBOutlet weak var ingredientText: UITextField!
     
     
+    @IBOutlet weak var categoryTextField: UITextField!
     
+ 
+    var categoriesList = [String]()
+    
+    var categoryDict = [String:PFObject]()
+    
+    //categoryDict["Chinese"] =
+    var pickerView = UIPickerView()
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let query = PFQuery(className: "Categories")
+        
+        query.findObjectsInBackground { (objects, error) -> Void in
+            if error == nil {
+                //no error in fetch
+                
+                if let returnedobjects = objects {
+                    for object in returnedobjects{
+                        self.categoriesList.append(object["CategoryName"] as! String)
+                        self.categoryDict[object["CategoryName"] as! String] = object
+                    }
+                }
+            }
+            
+        }
         // Do any additional setup after loading the view.
+        pickerView.delegate = self
+        pickerView.dataSource = self
+        
+        categoryTextField.inputView = pickerView
+        categoryTextField.textAlignment = .center
     }
     
     @IBAction func onSubmitButton(_ sender: Any) {
@@ -30,7 +59,8 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         post["ingredients"] = ingredientText.text!
         post["instructionsText"] = instructionsText.text!
         post["author"] = PFUser.current()!
-        post["title"] = titleText.text!
+        post["title"] = titletext.text!
+        post["category"] = self.categoryDict[categoryTextField.text ?? "NONE"]
                 
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)
@@ -82,4 +112,22 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     */
 
+}
+
+extension PostViewController: UIPickerViewDelegate,UIPickerViewDataSource{
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return categoriesList.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return categoriesList[row]
+    }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        categoryTextField.text = categoriesList[row]
+        categoryTextField.resignFirstResponder()
+    }
+    
+    
 }

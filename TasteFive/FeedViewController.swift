@@ -41,7 +41,7 @@ class FeedViewController: UIViewController,UITableViewDataSource,UITableViewDele
         super.viewDidAppear(true)
         
         let query = PFQuery(className: "Categories")
-        query.limit = 5
+
         query.findObjectsInBackground{(Categories,error) in
             if Categories != nil{
                 self.categories = Categories!

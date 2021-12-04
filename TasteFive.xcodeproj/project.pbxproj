@@ -26,6 +26,7 @@
 		E1F46DBF2751742B004B144D /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */; };
 		E32650A1CC8CDC8BE2F3FF67 /* Pods_TasteFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FBA106BEBADF57E6BAF296 /* Pods_TasteFive.framework */; };
 		F4BB056B2752AB950073BF5E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB056A2752AB950073BF5E /* PostViewController.swift */; };
+		F4EFEC20275BEA7D006A6F62 /* ProfileGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EFEC1F275BEA7D006A6F62 /* ProfileGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
 		EA81B4256B75CE7826E32CD9 /* Pods_TasteFiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TasteFiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BB056A2752AB950073BF5E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		F4EFEC1F275BEA7D006A6F62 /* ProfileGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				E1BA6F8B275A578400782D61 /* SpecificRecipeCell.swift */,
 				E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */,
 				F4BB056A2752AB950073BF5E /* PostViewController.swift */,
+				F4EFEC1F275BEA7D006A6F62 /* ProfileGridCell.swift */,
 			);
 			path = TasteFive;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				22459FF627500A6D00B98FE5 /* RecipeFeedViewController.swift in Sources */,
 				E1B0C04D274162D800017A28 /* SceneDelegate.swift in Sources */,
 				0B40F802274AAA7C0089074F /* CategoryCell.swift in Sources */,
+				F4EFEC20275BEA7D006A6F62 /* ProfileGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -54,7 +54,7 @@ Here's a walkthrough of implemented user stories for Sprint 2:
 
 Here's a walkthrough of edits for Sprint 3:
 
-<img src='TasteFiveSprint3.gif' /> ,
+<img src='TasteFiveSprint3.gif' /> 
 
 ### 2. Screen Archetypes
 

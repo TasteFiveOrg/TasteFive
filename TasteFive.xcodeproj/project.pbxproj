@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B077E0B275DA4D600721CBC /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B077E0A275DA4D600721CBC /* DesignableView.swift */; };
 		0B2439B327488B320072A2DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2439B227488B320072A2DC /* LoginViewController.swift */; };
 		0B2439B527488B3D0072A2DC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2439B427488B3D0072A2DC /* FeedViewController.swift */; };
 		0B40F802274AAA7C0089074F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40F801274AAA7C0089074F /* CategoryCell.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B077E0A275DA4D600721CBC /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		0B2439B227488B320072A2DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B2439B427488B3D0072A2DC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0B40F801274AAA7C0089074F /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				E1F46DBE2751742B004B144D /* RecipeDetailsViewController.swift */,
 				F4BB056A2752AB950073BF5E /* PostViewController.swift */,
 				F4EFEC1F275BEA7D006A6F62 /* ProfileGridCell.swift */,
+				0B077E0A275DA4D600721CBC /* DesignableView.swift */,
 			);
 			path = TasteFive;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				22459FF4275000FA00B98FE5 /* ProfileViewController.swift in Sources */,
 				E1F46DBF2751742B004B144D /* RecipeDetailsViewController.swift in Sources */,
 				E1BA6F8C275A578500782D61 /* SpecificRecipeCell.swift in Sources */,
+				0B077E0B275DA4D600721CBC /* DesignableView.swift in Sources */,
 				0B2439B327488B320072A2DC /* LoginViewController.swift in Sources */,
 				E1B0C04B274162D800017A28 /* AppDelegate.swift in Sources */,
 				F4BB056B2752AB950073BF5E /* PostViewController.swift in Sources */,

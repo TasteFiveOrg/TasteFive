@@ -9,15 +9,32 @@ import UIKit
 import Parse
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var passwordField: UITextField!
+   
+
+
     @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        /*
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = view.bounds
+        gradientLayer.colors = [
+            //UIColor.init(red: 22, green: 193, blue: 34, alpha: 0.5),
+            //UIColor.init(red: 28, green: 191, blue: 37, alpha: 0.5),
+            UIColor.systemGreen.cgColor,
+            UIColor.systemTeal.cgColor,
+            UIColor.systemBlue.cgColor,
+ 
+        ]
+        //view.layer.addSublayer(gradientLayer)
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
         // Do any additional setup after loading the view.
+ 
+ */
     }
     
     @IBAction func onSignIn(_ sender: Any) {

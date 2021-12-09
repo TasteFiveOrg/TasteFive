@@ -54,6 +54,8 @@ class RecipeFeedViewController: UIViewController, UITableViewDataSource, UITable
         let post = posts[indexPath.row]
         
         cell.recipeTitle.text = post["title"] as? String
+        cell.ingredientsLabel.text = "Ingredients:"
+        cell.ingredientsText.text = post["ingredients"] as? String
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!

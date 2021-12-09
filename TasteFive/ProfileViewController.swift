@@ -38,7 +38,7 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let query = PFQuery(className: "Posts")
-        query.whereKey("author", equalTo: PFUser.current())
+        query.whereKey("author", equalTo: PFUser.current() as Any)
         query.includeKey("author")
         query.limit = 20
         query.findObjectsInBackground { (posts, error) in

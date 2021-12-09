@@ -13,10 +13,12 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titletext: UITextField!
-    @IBOutlet weak var instructionsText: UITextField!
+
     
-    @IBOutlet weak var ingredientText: UITextField!
+    @IBOutlet weak var instructionsText: UITextView!
     
+    
+    @IBOutlet weak var ingredientText: UITextView!
     
     @IBOutlet weak var categoryTextField: UITextField!
     
@@ -29,7 +31,11 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     var pickerView = UIPickerView()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        instructionsText!.layer.borderWidth = 1
+        instructionsText!.layer.borderColor = UIColor.black.cgColor
+        
+        ingredientText!.layer.borderWidth = 1
+        ingredientText!.layer.borderColor = UIColor.black.cgColor
         let query = PFQuery(className: "Categories")
         
         query.findObjectsInBackground { (objects, error) -> Void in
@@ -95,9 +101,9 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
            let image = info[.editedImage] as! UIImage
            
            let size = CGSize(width: 300, height: 300)
-           let scaledImage = image.af.imageScaled(to: size)
-           
-           imageView.image = scaledImage
+        let scaledImage = image.af.imageAspectScaled(toFill: size)
+        let roundedImage = scaledImage.af.imageRounded(withCornerRadius: 25)
+           imageView.image = roundedImage
            dismiss(animated: true, completion: nil)
        }
        

@@ -56,6 +56,10 @@ Here's a walkthrough of edits for Sprint 3:
 
 <img src='TasteFiveSprint3.gif' /> 
 
+Here's a walkthrough of edits for Sprint 4:
+
+<img src='TasteFiveSprint4.gif' /> 
+
 ### 2. Screen Archetypes
 
 * Login screen

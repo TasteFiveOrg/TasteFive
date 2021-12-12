@@ -550,7 +550,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Instructions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xK6-LQ-GAX">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Instructions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xK6-LQ-GAX">
                                                     <rect key="frame" x="8" y="184" width="186" height="69"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
